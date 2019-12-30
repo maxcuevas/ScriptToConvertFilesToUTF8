@@ -7,3 +7,11 @@ for example in some folder there should be:
 - folderAndSubfoldersWithFilesToConvert
 Example of calling script
 .\utf8BomToUtf8Transformer.ps1 folderAndSubfoldersWithFilesToConvert convertedFolderAndSubfolders
+
+
+
+
+To run on a computer that is giving an execution error, instead this line could be run on a cmd line
+```
+powershell -ExecutionPolicy ByPass -File script.ps1
+```
